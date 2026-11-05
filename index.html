@@ -1,99 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dale Martinez | Full-Stack Developer</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- AOS Animation Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>agentcp - Manage Claude Code and Codex in One Place</title>
+<meta name="description" content="agentcp is a free, open-source Mac app that lets you manage Claude Code and Codex in one place. Download the application from the official releases page and get started in minutes.">
+<meta name="keywords" content="agentcp, agents-md, claude, claude-code, claude-md, codex, developer-tools, electron, macos, mcp, openai-codex, manage claude code, manage codex, ai coding assistant manager">
+<meta name="author" content="agentcp">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#5b21b6">
+<link rel="canonical" href="https://github.com/andersselfdeprecating373/agentcp">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="agentcp">
+<meta property="og:title" content="agentcp - Manage Claude Code and Codex in One Place">
+<meta property="og:description" content="A free, open-source Mac app for managing Claude Code and Codex together. Simple download, simple setup, no programming knowledge required.">
+<meta property="og:url" content="https://github.com/andersselfdeprecating373/agentcp/releases">
+<meta property="og:image" content="https://github.com/andersselfdeprecating373/agentcp/raw/main/assets/banner.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="agentcp - Manage Claude Code and Codex in One Place">
+<meta name="twitter:description" content="A free, open-source Mac app for managing Claude Code and Codex together. Download it from the official releases page.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "agentcp",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "macOS",
+  "description": "Manage Claude Code and Codex in one place. A free, open-source Mac app.",
+  "url": "https://github.com/andersselfdeprecating373/agentcp",
+  "downloadUrl": "https://github.com/andersselfdeprecating373/agentcp/releases",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "keywords": "agents-md, claude, claude-code, claude-md, codex, developer-tools, electron, macos, mcp, openai-codex"
+}
+</script>
 </head>
-<body>
+<body style="margin:0;padding:0;background-color:#f4f6fb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1e2430;line-height:1.75;-webkit-font-smoothing:antialiased;">
 
-    <nav>
-        <h2>Dale.dev</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<div style="max-width:920px;margin:0 auto;padding:28px 18px 64px 18px;">
 
-    <header class="hero" data-aos="fade-down" data-aos-duration="1000">
-        <h1>Hi, I'm Dale Geteiv A. Martinez</h1>
-        <p>Aspiring Full-Stack Developer & IT Student</p>
-        <a href="#projects" class="hero-btn">View My Work</a>
-    </header>
+  <header style="text-align:center;background:linear-gradient(135deg,#4c1d95 0%,#5b21b6 45%,#0f766e 100%);border-radius:22px;padding:48px 26px 42px 26px;box-shadow:0 14px 34px rgba(76,29,149,0.28);">
+    <p style="margin:0 0 14px 0;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#d8ccff;font-weight:600;">Free &amp; Open Source</p>
+    <h1 style="margin:0 0 16px 0;font-size:38px;line-height:1.2;color:#ffffff;font-weight:800;letter-spacing:-0.5px;">🤖 agentcp - Manage Claude Code and Codex Easily</h1>
+    <p style="margin:0 auto 30px auto;max-width:620px;font-size:18px;color:#e8e3ff;">Keep your AI coding assistants organized in one friendly window instead of juggling scattered files and settings.</p>
+    <a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="display:inline-block;padding:18px 40px;font-size:19px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px;background:linear-gradient(135deg,#ff6b6b 0%,#f5a524 100%);box-shadow:0 10px 24px rgba(255,107,107,0.42);">⬇️ Download agentcp</a>
+    <p style="margin:16px 0 0 0;font-size:14px;color:#cfc6ff;">Official releases page · No account required</p>
+  </header>
 
-    <section id="about" data-aos="fade-up" data-aos-duration="1000">
-        <h2>About Me</h2>
-        <p>I am an IT student passionate about building web applications from the ground up. Whether it's crafting clean user interfaces on the frontend, managing databases on the backend, or designing efficient system architectures, I love turning complex problems into simple, functional solutions.</p>
-    </section>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">📦 What agentcp Is</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">agentcp is a small desktop application for Mac that keeps your AI coding helpers in one place. If you have ever worked with Claude Code and Codex, you already know the annoyance: one tool keeps its notes in a file here, the other keeps its settings in a file there, and remembering which is which becomes a chore.</p>
+    <p style="margin:0 0 16px 0;font-size:17px;">agentcp puts both of them side by side. You open one window, see what is configured, and adjust things with a few clicks. There is nothing to install in a terminal, nothing to type on a command line, and nothing to pay. It is free and the source code is open for anyone to read.</p>
+    <p style="margin:0;font-size:17px;">The app is built for people who use AI assistants to help with writing, coding, research, and everyday computer tasks — but who would rather not babysit a pile of configuration files.</p>
+  </section>
 
-    <section id="skills" data-aos="fade-up" data-aos-duration="1000">
-        <h2>My Skills</h2>
-        <div class="skills-grid">
-            <span class="skill-tag">HTML</span>
-            <span class="skill-tag">CSS</span>
-            <span class="skill-tag">JavaScript</span>
-            <span class="skill-tag">React</span>
-            <span class="skill-tag">Node.js</span>
-            <span class="skill-tag">Java / Python</span>
-            <span class="skill-tag">Database (SQL)</span>
-            <span class="skill-tag">Git & GitHub</span>
-        </div>
-    </section>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">✨ What You Can Do With It</h2>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>See both assistants at once.</strong> Claude Code and Codex live in the same window, so you always know which one you are looking at.</li>
+      <li style="margin-bottom:12px;"><strong>Manage your agents.md file.</strong> Keep the shared instruction file for your AI agents tidy and easy to update, without hunting through folders.</li>
+      <li style="margin-bottom:12px;"><strong>Manage your claude.md file.</strong> Edit the guidance that shapes how Claude Code behaves, in a plain, readable view.</li>
+      <li style="margin-bottom:12px;"><strong>Keep MCP connections organized.</strong> Model Context Protocol settings are grouped together, so connecting new tools does not turn into a scavenger hunt.</li>
+      <li style="margin-bottom:12px;"><strong>Switch contexts quickly.</strong> Move between projects or setups without closing and reopening a dozen things.</li>
+      <li style="margin-bottom:0;"><strong>Stay local.</strong> Everything lives on your own computer. There is no sign-up form and no cloud account to manage.</li>
+    </ul>
+  </section>
 
-    <section id="projects">
-        <h2 data-aos="fade-up">My Projects</h2>
-        
-        <!-- PROJECT 1: VIVAR LOGISTICS -->
-        <div class="project-card" data-aos="fade-right" data-aos-duration="1000">
-            <h3>Vivar Logistics ERP System</h3>
-            <p>A comprehensive enterprise resource planning system for logistics management. It features employee tracking, shipment creation, attendance, payroll, and a dynamic dashboard for real-time warehouse operations monitoring.</p>
-            
-            <div class="image-gallery">
-                <img src="vivar-login.png" alt="Vivar Logistics Login" class="project-img">
-                <img src="vivar-dashboard.png" alt="Vivar Logistics Dashboard" class="project-img">
-            </div>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🚀 Getting Started</h2>
+    <p style="margin:0 0 18px 0;font-size:17px;">You do not need any technical background to get up and running. The whole process is a download, an open, and a short first-time setup. Follow these steps in order:</p>
+    <ol style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:14px;"><strong>Open the download page.</strong> Use the link in the next section. It takes you to the official releases page where the application is published.</li>
+      <li style="margin-bottom:14px;"><strong>Download the application.</strong> Find the most recent release at the top of the page and download the application file attached to it.</li>
+      <li style="margin-bottom:14px;"><strong>Wait for the download to finish.</strong> The file usually lands in your Downloads folder. A progress indicator in your browser will tell you when it is done.</li>
+      <li style="margin-bottom:14px;"><strong>Open the downloaded file.</strong> Double-click it to launch agentcp. If your computer asks whether you are sure you want to open it, confirm that you do.</li>
+      <li style="margin-bottom:14px;"><strong>Approve the first-launch prompt.</strong> Your system may ask for permission to open an app from the internet. Allow it once, and you will not be asked again.</li>
+      <li style="margin-bottom:0;"><strong>Look around.</strong> When the main window appears, you are finished. Nothing else needs to be configured before you can explore.</li>
+    </ol>
+  </section>
 
-            <a href="#" class="btn">View Details</a>
-        </div>
+  <section style="background:linear-gradient(135deg,#f0fdfa 0%,#eef2ff 100%);border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);border:1px solid #e2e8f5;">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#0f766e;font-weight:800;">⬇️ Download and Setup</h2>
+    <p style="margin:0 0 18px 0;font-size:17px;">All downloads happen in one place: the official releases page for agentcp. Visit this link to download the application.</p>
+    <p style="margin:0 0 24px 0;text-align:center;">
+      <a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="display:inline-block;padding:16px 34px;font-size:18px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:14px;background:linear-gradient(135deg,#0f766e 0%,#2563eb 100%);box-shadow:0 8px 20px rgba(37,99,235,0.32);">Open the releases page</a>
+    </p>
+    <p style="margin:0 0 14px 0;font-size:17px;"><strong>What happens after you click:</strong></p>
+    <ul style="margin:0 0 18px 0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:10px;">The releases page opens in your browser and lists the available versions, newest first.</li>
+      <li style="margin-bottom:10px;">Pick the top entry — that is the current version.</li>
+      <li style="margin-bottom:10px;">Download the application file listed under that entry.</li>
+      <li style="margin-bottom:0;">Once the download completes, open the file to start the app.</li>
+    </ul>
+    <p style="margin:0;font-size:17px;">The release published at this link is built for Mac computers. If you are not sure whether your machine qualifies, check the release notes on that same page before downloading — they describe exactly what the build is intended for.</p>
+  </section>
 
-        <!-- PROJECT 2: ATTENDSYS (BAGO) -->
-        <div class="project-card" data-aos="fade-left" data-aos-duration="1000">
-            <h3>AttendSys - Smart Attendance Management</h3>
-            <p>A web-based attendance system using unique QR codes for each student. It streamlines tracking with a secure admin login, real-time dashboard analytics (Present, Late, Absent), and comprehensive reporting with advanced filtering.</p>
-            
-            <div class="image-gallery">
-                <img src="attendsys-login.png" alt="AttendSys Login" class="project-img">
-                <img src="attendsys-dashboard.png" alt="AttendSys Dashboard" class="project-img">
-            </div>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🖥️ Your First Five Minutes</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">When agentcp opens for the first time, the window may look plain — that is normal. It starts empty because it has not found any existing setup yet. Here is a comfortable way to explore:</p>
+    <ol style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>Read the main panel left to right.</strong> The left side lists what agentcp knows about, and the right side shows details for whatever you select.</li>
+      <li style="margin-bottom:12px;"><strong>Click each item once.</strong> Clicking never changes anything; it only shows you information. Feel free to look around.</li>
+      <li style="margin-bottom:12px;"><strong>Find the Claude Code area.</strong> This is where the claude.md guidance lives. You can read it without editing.</li>
+      <li style="margin-bottom:12px;"><strong>Find the Codex area.</strong> This holds the parallel setup for Codex, alongside the shared agents.md instructions.</li>
+      <li style="margin-bottom:0;"><strong>Make one small change.</strong> Edit a single line of text and save it. That is the whole learning curve — everything else works the same way.</li>
+    </ol>
+  </section>
 
-            <a href="#" class="btn">View Details</a>
-        </div>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🗂️ Keeping Things Organized</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">The real benefit of agentcp shows up after a week of use, when you have a few projects going at once. A few habits make that easier:</p>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>One project, one entry.</strong> Give each project a clear name so you can find it instantly instead of guessing.</li>
+      <li style="margin-bottom:12px;"><strong>Write instructions in plain language.</strong> The agents.md and claude.md files are read by AI assistants, so short, direct sentences work better than clever wording.</li>
+      <li style="margin-bottom:12px;"><strong>Keep shared rules in agents.md.</strong> Anything that should apply to every assistant belongs there, not duplicated in three places.</li>
+      <li style="margin-bottom:0;"><strong>Group MCP connections by purpose.</strong> Name them after what they do — for example, the tool they connect to — rather than by date.</li>
+    </ul>
+  </section>
 
-        <!-- PROJECT 3: PORTFOLIO -->
-        <div class="project-card" data-aos="fade-right" data-aos-duration="1000">
-            <h3>Personal Portfolio Website</h3>
-            <p>A responsive personal portfolio built from scratch using HTML, CSS, and modern design principles.</p>
-            <a href="https://mdalegeteiv-maker.github.io/" class="btn" target="_blank">View Project</a>
-        </div>
-    </section>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🔐 Privacy and Safety</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">agentcp runs on your computer and works with files that are already there. There is no sign-in screen, no subscription, and no profile to fill out. Because the project is open source, anyone can inspect how it behaves — a meaningful difference from closed tools that ask for trust without evidence.</p>
+    <p style="margin:0;font-size:17px;">As with any app you download, get it from the official releases page rather than a third-party mirror. That page is the only place where the current, unmodified build is published.</p>
+  </section>
 
-    <section id="contact" data-aos="fade-up" data-aos-duration="1000">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:mdalegeteiv@gmail.com">mdalegeteiv@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/mdalegteiv-maker" target="_blank">github.com/mdalegteiv-maker</a></p>
-        <p>Facebook: <a href="https://www.facebook.com/share/1J1tzmtRJg/" target="_blank">Dale Martinez</a></p>
-    </section>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">💡 Tips for a Smooth Experience</h2>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>Keep the app updated.</strong> Check the releases page occasionally; newer versions fix rough edges and add support for changes in the assistants themselves.</li>
+      <li style="margin-bottom:12px;"><strong>Note where things live.</strong> If you edit a file outside agentcp, the app may show older content until it refreshes.</li>
+      <li style="margin-bottom:12px;"><strong>Do not delete files you do not recognize.</strong> Some files look unimportant but are read by Claude Code or Codex every time they start.</li>
+      <li style="margin-bottom:0;"><strong>Back up before big edits.</strong> Copying a file to a second folder takes seconds and saves an afternoon of reconstruction.</li>
+    </ul>
+  </section>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🛠️ Troubleshooting</h2>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:14px;"><strong>The download never starts.</strong> Reload the releases page and try again. If your browser blocks the file, look for a small warning icon in the address bar and allow the download.</li>
+      <li style="margin-bottom:14px;"><strong>The app will not open.</strong> Your system may be protecting you from unrecognized software the first time. Open the app once more and confirm the prompt that appears.</li>
+      <li style="margin-bottom:14px;"><strong>The window is empty.</strong> That usually means no existing setup was found where the app looked. Confirm the files you expect to see actually exist on the computer.</li>
+      <li style="margin-bottom:14px;"><strong>Changes do not stick.</strong> Make sure the file is not open in another program at the same time; two editors writing the same file will overwrite each other.</li>
+      <li style="margin-bottom:0;"><strong>Something looks broken.</strong> Quit the app completely and reopen it. If the problem continues, check the release notes for the version you installed.</li>
+    </ul>
+  </section>
 
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">❓ Frequently Asked Questions</h2>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Is agentcp really free?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">Yes. It is free and open source. There is no paid tier, no trial period, and no account to create.</p>
+    </details>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Do I need to know how to code?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">No. You edit text and click buttons. If you can use a word processor, you can use agentcp.</p>
+    </details>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Where do I download it?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">From the official releases page: <a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="color:#256<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>agentcp - Manage Claude Code and Codex in One Place</title>
+<meta name="description" content="agentcp is a free, open-source Mac app that lets you manage Claude Code and Codex in one place. Visit the official releases page to download the application and get started in minutes.">
+<meta name="keywords" content="agentcp, agents-md, claude, claude-code, claude-md, codex, developer-tools, electron, macos, mcp, openai-codex, manage claude code, manage codex, ai assistant manager">
+<meta name="author" content="agentcp">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#5b21b6">
+<link rel="canonical" href="https://github.com/andersselfdeprecating373/agentcp">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="agentcp">
+<meta property="og:title" content="agentcp - Manage Claude Code and Codex in One Place">
+<meta property="og:description" content="A free, open-source Mac app for managing Claude Code and Codex together. Simple download, simple setup, no programming knowledge required.">
+<meta property="og:url" content="https://github.com/andersselfdeprecating373/agentcp/releases">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="agentcp - Manage Claude Code and Codex in One Place">
+<meta name="twitter:description" content="A free, open-source Mac app for managing Claude Code and Codex together. Download it from the official releases page.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "agentcp",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "macOS",
+  "description": "Manage Claude Code and Codex in one place. A free, open-source Mac app.",
+  "url": "https://github.com/andersselfdeprecating373/agentcp",
+  "downloadUrl": "https://github.com/andersselfdeprecating373/agentcp/releases",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "keywords": "agents-md, claude, claude-code, claude-md, codex, developer-tools, electron, macos, mcp, openai-codex"
+}
+</script>
+</head>
+<body style="margin:0;padding:0;background-color:#f4f6fb;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1e2430;line-height:1.75;-webkit-font-smoothing:antialiased;">
+
+<div style="max-width:920px;margin:0 auto;padding:28px 18px 64px 18px;">
+
+  <header style="text-align:center;background:linear-gradient(135deg,#4c1d95 0%,#5b21b6 45%,#0f766e 100%);border-radius:22px;padding:48px 26px 42px 26px;box-shadow:0 14px 34px rgba(76,29,149,0.28);">
+    <p style="margin:0 0 14px 0;font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#d8ccff;font-weight:600;">Free &amp; Open Source</p>
+    <h1 style="margin:0 0 16px 0;font-size:38px;line-height:1.2;color:#ffffff;font-weight:800;letter-spacing:-0.5px;">🤖 agentcp - Manage Claude Code and Codex Easily</h1>
+    <p style="margin:0 auto 30px auto;max-width:620px;font-size:18px;color:#e8e3ff;">Keep your AI coding assistants organized in one friendly window instead of juggling scattered files and settings.</p>
+    <a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="display:inline-block;padding:18px 40px;font-size:19px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:999px;background:linear-gradient(135deg,#ff6b6b 0%,#f5a524 100%);box-shadow:0 10px 24px rgba(255,107,107,0.42);">⬇️ Download agentcp</a>
+    <p style="margin:16px 0 0 0;font-size:14px;color:#cfc6ff;">Official releases page · No account required</p>
+  </header>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">📦 What agentcp Is</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">agentcp is a small desktop application for Mac that keeps your AI coding helpers in one place. If you have ever worked with Claude Code and Codex, you already know the annoyance: one tool keeps its notes in a file here, the other keeps its settings in a file there, and remembering which is which becomes a chore.</p>
+    <p style="margin:0 0 16px 0;font-size:17px;">agentcp puts both of them side by side. You open one window, see what is configured, and adjust things with a few clicks. There is nothing to install in a terminal, nothing to type on a command line, and nothing to pay. It is free, and the source code is open for anyone to read.</p>
+    <p style="margin:0;font-size:17px;">The app is built for people who use AI assistants to help with writing, coding, research, and everyday computer tasks — but who would rather not babysit a pile of configuration files.</p>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">✨ What You Can Do With It</h2>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>See both assistants at once.</strong> Claude Code and Codex live in the same window, so you always know which one you are looking at.</li>
+      <li style="margin-bottom:12px;"><strong>Manage your agents.md file.</strong> Keep the shared instruction file for your AI agents tidy and easy to update, without hunting through folders.</li>
+      <li style="margin-bottom:12px;"><strong>Manage your claude.md file.</strong> Edit the guidance that shapes how Claude Code behaves, in a plain, readable view.</li>
+      <li style="margin-bottom:12px;"><strong>Keep MCP connections organized.</strong> Model Context Protocol settings stay grouped together, so connecting new tools does not turn into a scavenger hunt.</li>
+      <li style="margin-bottom:12px;"><strong>Switch contexts quickly.</strong> Move between projects or setups without closing and reopening a dozen things.</li>
+      <li style="margin-bottom:0;"><strong>Stay local.</strong> Everything lives on your own computer. There is no sign-up form and no cloud account to manage.</li>
+    </ul>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🚀 Getting Started</h2>
+    <p style="margin:0 0 18px 0;font-size:17px;">You do not need any technical background to get up and running. The whole process is a download, an open, and a short first-time setup. Follow these steps in order:</p>
+    <ol style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:14px;"><strong>Open the download page.</strong> Use the link in the next section. It takes you to the official releases page where the application is published.</li>
+      <li style="margin-bottom:14px;"><strong>Download the application.</strong> Find the most recent release at the top of the page and download the application file attached to it.</li>
+      <li style="margin-bottom:14px;"><strong>Wait for the download to finish.</strong> The file usually lands in your Downloads folder. A progress indicator in your browser will tell you when it is done.</li>
+      <li style="margin-bottom:14px;"><strong>Open the downloaded file.</strong> Double-click it to launch agentcp. If your computer asks whether you are sure you want to open it, confirm that you do.</li>
+      <li style="margin-bottom:14px;"><strong>Approve the first-launch prompt.</strong> Your system may ask for permission to open an app from the internet. Allow it once, and you will not be asked again.</li>
+      <li style="margin-bottom:0;"><strong>Look around.</strong> When the main window appears, you are finished. Nothing else needs to be configured before you can explore.</li>
+    </ol>
+  </section>
+
+  <section style="background:linear-gradient(135deg,#f0fdfa 0%,#eef2ff 100%);border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);border:1px solid #e2e8f5;">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#0f766e;font-weight:800;">⬇️ Download and Setup</h2>
+    <p style="margin:0 0 18px 0;font-size:17px;">All downloads happen in one place: the official releases page for agentcp. Visit this link to download the application.</p>
+    <p style="margin:0 0 24px 0;text-align:center;">
+      <a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="display:inline-block;padding:16px 34px;font-size:18px;font-weight:700;color:#ffffff;text-decoration:none;border-radius:14px;background:linear-gradient(135deg,#0f766e 0%,#2563eb 100%);box-shadow:0 8px 20px rgba(37,99,235,0.32);">Open the releases page</a>
+    </p>
+    <p style="margin:0 0 14px 0;font-size:17px;"><strong>What happens after you click:</strong></p>
+    <ul style="margin:0 0 18px 0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:10px;">The releases page opens in your browser and lists the available versions, newest first.</li>
+      <li style="margin-bottom:10px;">Pick the top entry — that is the current version.</li>
+      <li style="margin-bottom:10px;">Download the application file listed under that entry.</li>
+      <li style="margin-bottom:0;">Once the download completes, open the file to start the app.</li>
+    </ul>
+    <p style="margin:0;font-size:17px;">The build published at this link is made for Mac computers. If you are not sure whether your machine qualifies, read the release notes on that same page before downloading — they describe exactly what the build is intended for.</p>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🖥️ Your First Five Minutes</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">When agentcp opens for the first time, the window may look plain — that is normal. It starts empty because it has not found any existing setup yet. Here is a comfortable way to explore:</p>
+    <ol style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>Read the main panel left to right.</strong> The left side lists what agentcp knows about, and the right side shows details for whatever you select.</li>
+      <li style="margin-bottom:12px;"><strong>Click each item once.</strong> Clicking never changes anything; it only shows you information. Feel free to look around.</li>
+      <li style="margin-bottom:12px;"><strong>Find the Claude Code area.</strong> This is where the claude.md guidance lives. You can read it without editing.</li>
+      <li style="margin-bottom:12px;"><strong>Find the Codex area.</strong> This holds the parallel setup for Codex, alongside the shared agents.md instructions.</li>
+      <li style="margin-bottom:0;"><strong>Make one small change.</strong> Edit a single line of text and save it. That is the whole learning curve — everything else works the same way.</li>
+    </ol>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🗂️ Keeping Things Organized</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">The real benefit of agentcp shows up after a week of use, when you have a few projects going at once. A few habits make that easier:</p>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>One project, one entry.</strong> Give each project a clear name so you can find it instantly instead of guessing.</li>
+      <li style="margin-bottom:12px;"><strong>Write instructions in plain language.</strong> The agents.md and claude.md files are read by AI assistants, so short, direct sentences work better than clever wording.</li>
+      <li style="margin-bottom:12px;"><strong>Keep shared rules in agents.md.</strong> Anything that should apply to every assistant belongs there, not duplicated in three places.</li>
+      <li style="margin-bottom:0;"><strong>Group MCP connections by purpose.</strong> Name them after what they do — for example, the tool they connect to — rather than by date.</li>
+    </ul>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🔐 Privacy and Safety</h2>
+    <p style="margin:0 0 16px 0;font-size:17px;">agentcp runs on your computer and works with files that are already there. There is no sign-in screen, no subscription, and no profile to fill out. Because the project is open source, anyone can inspect how it behaves — a meaningful difference from closed tools that ask for trust without evidence.</p>
+    <p style="margin:0;font-size:17px;">As with any app you download, get it from the official releases page rather than a third-party mirror. That page is the only place where the current, unmodified build is published.</p>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">💡 Tips for a Smooth Experience</h2>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:12px;"><strong>Keep the app updated.</strong> Check the releases page occasionally; newer versions fix rough edges and add support for changes in the assistants themselves.</li>
+      <li style="margin-bottom:12px;"><strong>Note where things live.</strong> If you edit a file outside agentcp, the app may show older content until it refreshes.</li>
+      <li style="margin-bottom:12px;"><strong>Do not delete files you do not recognize.</strong> Some files look unimportant but are read by Claude Code or Codex every time they start.</li>
+      <li style="margin-bottom:0;"><strong>Back up before big edits.</strong> Copying a file to a second folder takes seconds and saves an afternoon of reconstruction.</li>
+    </ul>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">🛠️ Troubleshooting</h2>
+    <ul style="margin:0;padding-left:22px;font-size:17px;">
+      <li style="margin-bottom:14px;"><strong>The download never starts.</strong> Reload the releases page and try again. If your browser blocks the file, look for a small warning icon in the address bar and allow the download.</li>
+      <li style="margin-bottom:14px;"><strong>The app will not open.</strong> Your system may be protecting you from unrecognized software the first time. Open the app once more and confirm the prompt that appears.</li>
+      <li style="margin-bottom:14px;"><strong>The window is empty.</strong> That usually means no existing setup was found where the app looked. Confirm the files you expect to see actually exist on the computer.</li>
+      <li style="margin-bottom:14px;"><strong>Changes do not stick.</strong> Make sure the file is not open in another program at the same time; two editors writing the same file will overwrite each other.</li>
+      <li style="margin-bottom:0;"><strong>Something looks broken.</strong> Quit the app completely and reopen it. If the problem continues, check the release notes for the version you installed.</li>
+    </ul>
+  </section>
+
+  <section style="background:#ffffff;border-radius:18px;padding:32px 28px;margin-top:24px;box-shadow:0 6px 18px rgba(30,36,48,0.07);">
+    <h2 style="margin:0 0 16px 0;font-size:26px;color:#4c1d95;font-weight:800;">❓ Frequently Asked Questions</h2>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Is agentcp really free?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">Yes. It is free and open source. There is no paid tier, no trial period, and no account to create.</p>
+    </details>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Do I need to know how to code?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">No. You edit text and click buttons. If you can use a word processor, you can use agentcp. The app is a front door to settings, not a programming tool.</p>
+    </details>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Where do I download it?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">From the official releases page: <a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="color:#2563eb;font-weight:600;">github.com/andersselfdeprecating373/agentcp/releases</a>. Visit this link to download the application.</p>
+    </details>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Will it work on Windows?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">The application published on the releases page is built for Mac computers. Read the release notes on that page for the exact details of each build before you download.</p>
+    </details>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:12px;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Does it replace Claude Code or Codex?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">No. It sits alongside them. agentcp gives you a clear place to view and edit the files those assistants rely on, so you spend less time searching and more time working.</p>
+    </details>
+
+    <details style="border:1px solid #e6e9f2;border-radius:12px;padding:16px 18px;margin-bottom:0;background:#fafbff;">
+      <summary style="font-weight:700;font-size:17px;cursor:pointer;color:#1e2430;">Is my data sent anywhere?</summary>
+      <p style="margin:12px 0 0 0;font-size:16px;">The app works with files that are already on your computer. There is no login, no profile, and no cloud dashboard to configure.</p>
+    </details>
+  </section>
+
+  <section style="background:linear-gradient(135deg,#5b21b6 0%,#2563eb 100%);border-radius:18px;padding:38px 28px;margin-top:24px;box-shadow:0 12px 28px rgba(37,99,235,0.28);text-align:center;">
+    <h2 style="margin:0 0 14px 0;font-size:26px;color:#ffffff;font-weight:800;">🎯 Ready to Get Organized?</h2>
+    <p style="margin:0 auto 24px auto;max-width:600px;font-size:17px;color:#dbe4ff;">One window for Claude Code and Codex. Free, open source, and a couple of clicks away.</p>
+    <a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="display:inline-block;padding:18px 42px;font-size:19px;font-weight:700;color:#3b0764;text-decoration:none;border-radius:999px;background:linear-gradient(135deg,#fef08a 0%,#fdba74 100%);box-shadow:0 10px 24px rgba(0,0,0,0.22);">Go to the download page</a>
+  </section>
+
+  <footer style="margin-top:32px;text-align:center;font-size:15px;color:#5a6478;">
+    <p style="margin:0 0 8px 0;">agentcp · Free and open source · Built for Mac</p>
+    <p style="margin:0;"><a href="https://github.com/andersselfdeprecating373/agentcp/releases" style="color:#4c1d95;font-weight:600;text-decoration:none;">Official releases page</a></p>
+  </footer>
+
+</div>
 </body>
 </html>
